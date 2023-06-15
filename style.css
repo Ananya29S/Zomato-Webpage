@@ -112,6 +112,15 @@ body {
    flex-direction: row-reverse;
    align-items: center;
  }
+@media (max-width: 595px){
+  .navbar__logo{
+    width: 100px 
+  }
+  .navbar__nav__items{
+    width: 50px 
+    font-size: 25px;
+  }
+ }
 
  @media (min-width: 1024px) {
    .container {
